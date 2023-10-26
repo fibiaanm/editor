@@ -1,0 +1,31 @@
+.item-selected{
+    border: 1px red solid;
+}
+
+.select-borders{
+    position: fixed;
+    border: 2px red solid;
+}
+
+.element{
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: blueviolet;
+}
+.element:focus-visible{
+    outline: none;
+}
+
+.resizable-selector{
+    border-radius: 100%;
+    border: 1px black solid;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    background: white;
+    cursor: pointer;
+}
+.resizable-selector:hover{
+
+}
